@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    color: #222;
+    margin: 0;
+  }
+
+h1,
+h2{
+    margin: 0 0 0.35em;
+}
+
+h1 {
+    font-size: 40px;
+  }
+  
+h2 {
+    font-size: 28px;
+}
+
+
+p {
+    margin: 0 0 1.15em;
+}
+
+p + h2 {
+    margin-top: 1.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+header {
+    background-color: #190b95;
+    color: #fff;
+  }
+
+body > footer {
+    border-top: 2px solid #190b95;
+    text-align: center;
+}
+
+img{
+    margin: 0 16px 16px -20px;
+    height: 200px;
+    width: 200px;
+  }
